@@ -3,3 +3,4 @@ _pycache_/
 output/
 *._pycache_
 .DS_Store
+.vscode/
