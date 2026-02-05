@@ -16,18 +16,18 @@ Here are the steps to set up a virtual environment:
 1. Open the Visual Studio Code.
 2. Under the VS Code Terminal tab, select "New Terminal."
 3. Run this code:
-####        `py -m venv .venv`
-####        `.\.venv\Scripts\activate`
+        `py -m venv .venv`
+        `.\.venv\Scripts\activate`
 
 ### How to run Python scripts?
 Here are the steps to run Python scripts:
 1. Create a new file named *hello.py* by right-clicking the specific folder under the Explorer tab.
 2. Enter this code:
-####        `import sys`
-####        `print("Hello GmE 205")`
-####        `print("Python version:", sys.version)`
+        `import sys`
+        `print("Hello GmE 205")`
+        `print("Python version:", sys.version)`
 3. In the Terminal Tab, run this code:
-####        `python hello.py`
+        `python hello.py`
 
 ### Help
 While performing this project, I encountered two errors.
