@@ -22,8 +22,8 @@ Here are the steps to set up a virtual environment:
 ### *How to run Python scripts?*
 Here are the steps to run Python scripts:
 1. Create a new file named *hello.py* by right-clicking the specific folder under the Explorer tab.
-2. Enter this code:
-        `import sys`
+2. Enter this code: 
+        `import sys \n`
         `print("Hello GmE 205")`
         `print("Python version:", sys.version)`
 3. In the Terminal Tab, run this code:
