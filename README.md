@@ -28,7 +28,7 @@ Here are the steps to run Python scripts:
         `print("Python version:", sys.version)`
 3. In the Terminal Tab, run this code:
         `python hello.py`
-        
+
 ### Help
 While performing this project, I encountered two errors.
 
@@ -45,9 +45,11 @@ While performing this project, I encountered two errors.
 * Once the Python extension is installed, you will be able to search for "*Python: Select Interpreter*."
 
 ### Reflection
-Based on the script, I inspected the *points.csv* file, which contains longitude and latitude values. In the first part of the script, it checks the number of rows and columns, the column names, and any misisng or invalid values. The last part of the script plots the values, which produced a png file and a summary in a JSON file. I noticed that the Python scripts run in an activated virtual environement (*venv*), which provides this project with its own workspace without affecting other Python projects (CodeRivers, 2025). 
-From the given CSV file and coordinates, the script assumes that the coordinates are within the range of -90 to 90 for latitude and -180 to 180 for longitude, wherein each are represented as a point. As shown in Lines 38 to 61 of *inspect_data.py*, it automatically checks the data quality by identifying missing and invalid values of longitude and latitude within the specified ranges. On the other hand, a human should check whether the output of the script plots the points accurately on the given coordinates and not interchanged that results in a helpful output.
-If the dataset becomes very large, the appliaction may consume higher memory and may load the script slowly, and sometimes, it may crash, similar to processing high-resolution satelitte images in GIS, and the output image may become cluttered, which may show overlapping points or objects that are harder to analyze. 
+>   Based on the script, I inspected the *points.csv* file, which contains longitude and latitude values. In the first part of the script, it checks the number of rows and columns, the column names, and any misisng or invalid values. The last part of the script plots the values, which produced a png file and a summary in a JSON file. I noticed that the Python scripts run in an activated virtual environement (*venv*), which provides this project with its own workspace without affecting other Python projects (CodeRivers, 2025). 
+
+>   From the given CSV file and coordinates, the script assumes that the coordinates are within the range of -90 to 90 for latitude and -180 to 180 for longitude, wherein each are represented as a point. As shown in Lines 38 to 61 of *inspect_data.py*, it automatically checks the data quality by identifying missing and invalid values of longitude and latitude within the specified ranges. On the other hand, a human should check whether the output of the script plots the points accurately on the given coordinates and not interchanged that results in a helpful output.
+
+>   If the dataset becomes very large, the appliaction may consume higher memory and may load the script slowly, and sometimes, it may crash, similar to processing high-resolution satelitte images in GIS, and the output image may become cluttered, which may show overlapping points or objects that are harder to analyze. 
 
 ### Author
 Maria Graciella L. Roque  
@@ -55,7 +57,7 @@ Discord:[@grachiebob]
 
 ### Acknowledgements
 GmE 205 Laboratory Exercise 1 Manual
-[CodeRivers] (https://coderivers.org/blog/create-a-venv-python/)
-[MarkDown] (https://www.markdownguide.org/cheat-sheet/)
+* [CodeRivers] (https://coderivers.org/blog/create-a-venv-python/)
+* [MarkDown] (https://www.markdownguide.org/cheat-sheet/)
 
 Edited on GitHub web interface and VS Code
